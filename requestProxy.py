@@ -9,4 +9,4 @@ opener = urllib.request.build_opener(
 urllib.request.ProxyHandler(
             {'http': 'http://brd-customer-hl_7e1496e5-zone-residential_proxy2:by37c8ur2lkb@brd.superproxy.io:22225',
             'https': 'http://brd-customer-hl_7e1496e5-zone-residential_proxy2:by37c8ur2lkb@brd.superproxy.io:22225'}))
-print(opener.open('http://lumtest.com/myip.json').read())
+print(opener.open('http://lu mtest.com/myip.json').read())
