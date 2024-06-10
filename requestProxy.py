@@ -9,4 +9,4 @@ opener = urllib.request.build_opener(
 urllib.request.ProxyHandler(
             {'http': 'http://brd-customer-hl_7e1496e5-zone-residential_proxy2:by37c8ur2lkb@brd.superproxy.io:22225',
             'https': 'http://brd-customer-hl_7e1496e5-zone-residential_proxy2:by37c8ur2lkb@brd.superproxy.io:22225'}))
-print(opener.open('http://lu mtest.com/myip.json').read())
+print(opener.open('https://www.amazon.in/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=iphone&crid=1ELE5U2TRNHKI&sprefix=ipho%2Caps%2C346').read())
